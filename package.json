@@ -3,6 +3,10 @@
     "version": "1.0.1",
     "description": "portfolio",
     "author": "pavel ponomarev",
+    "repository": {
+        "type": "git",
+        "url": "coderman19"
+      },
     "devDependencies": {
         "@babel/core": "^7.16.0",
         "@babel/preset-env": "^7.16.4",

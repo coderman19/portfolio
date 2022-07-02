@@ -2,5 +2,11 @@
   display: flex;
   justify-content: center;
   gap: 10px;
-  
+  @include breakpoint($tablet-bp) {
+    display: none;
+  }
+}
+
+.social img {
+  box-shadow: $box-shadow;
 }

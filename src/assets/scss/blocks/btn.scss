@@ -15,8 +15,18 @@
 
   &--red {
     background-color: $red;
+    box-shadow: $box-shadow;
+    &:hover,
+    &:focus {
+      background-color: darken($red, 5%);
+    }
   }
   &--blue {
     background-color: $blue;
+    box-shadow: $box-shadow;
+    border-radius: 1em;
+  }
+  &--rounded {
+    border-radius: 0.41em;
   }
 }

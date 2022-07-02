@@ -1,9 +1,30 @@
 .header {
+  display: flex;
   width: 100%;
   width: calc(100% - #{$sidebar-width});
   position: fixed;
+
+  box-shadow: $box-shadow;
   top: 0;
   right: 0;
   z-index: $z-index-header;
- background-color: #444;
+ background-color: rgb(0, 0, 0);
+ @include breakpoint($tablet-bp) {
+  width: 100%;
+}
+}
+
+.header__left {
+  width: 60%;
+  @include breakpoint($tablet-bp) {
+    width: 40%;
+  }
+}
+.header__right {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  @include breakpoint($tablet-bp) {
+    width: 60%;
+  }
 }

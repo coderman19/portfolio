@@ -1,11 +1,19 @@
 $primary: #202020;
 $secondary: #121212;
 $white: #fff;
+$black: #000;
 // колор кнопок
 $red: #ed3024;
 $blue: #3137c9;
 
+// тени
+$box-shadow: 3px 5px 8px rgb(0, 0, 0);
 $z-index-sidebar: 1000;
 $z-index-header: 1000;
+$z-index-modal: 1100;
 // ширина сайдбара
 $sidebar-width: 300px;
+
+// media
+$tablet-bp: 991px;
+$mobile-bp: 575px;
