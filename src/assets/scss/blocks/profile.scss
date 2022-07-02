@@ -1,0 +1,33 @@
+.profile__avatar {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 2rem;
+  border: 1px solid $secondary;
+  border-radius: 50%;
+  // box-shadow: 0 2px 8px rgb(121, 199, 250);
+}
+
+.profile__name {
+  font-family: sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.profile__prof {
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #dedede;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile__text {
+  padding: 3rem 0;
+  margin: 3rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+ border-top: 1px solid #1c1c1c;
+ border-bottom: 1px solid #1c1c1c;
+}

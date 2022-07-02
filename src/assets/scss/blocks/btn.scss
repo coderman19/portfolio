@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.1;
+  background: $secondary;
+  border: none;
+  cursor: pointer;
+  color: $white;
+  text-decoration: none;
+  padding: 1.1em 2.1em;
+  border-radius: 3em;
+
+  &--red {
+    background-color: $red;
+  }
+  &--blue {
+    background-color: $blue;
+  }
+}
